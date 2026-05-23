@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Cache Test User",
+      "email": "cache123456789024@example.com",
+      "phone": "9999999999",
+      "aadhaar": "123456789024",
+      "password": "$2a$10$M1m5i0lrqC7B5jBthWwFH.Z0J8s163STsGOTxFw1exgW8X7YC9zt.",
+      "role": "CITIZEN",
+      "rewardPoints": 0,
+      "createdAt": "2026-05-23T19:08:24.268Z"
+    },
+    {
+      "id": 2,
+      "name": "Cache Flow User",
+      "email": "cache12345678903916@example.com",
+      "phone": "9999999998",
+      "aadhaar": "12345678903916",
+      "password": "$2a$10$p69NYnD5M4fQObX8.qbwyu92ef0c0ZdzwEy5vHAZczqTDT.SjGZDK",
+      "role": "CITIZEN",
+      "rewardPoints": 0,
+      "createdAt": "2026-05-23T19:09:17.049Z"
+    },
+    {
+      "id": 3,
+      "name": "Ryan Keshary",
+      "email": "ryankeshary@gmail.com",
+      "phone": "0937260231",
+      "aadhaar": "134141313141",
+      "password": "$2a$10$7jy.FLUND9.GQ.FhOtXblOGtvEBSv/QrhG6j2tSmggNqQBNhkrYJ2",
+      "role": "CITIZEN",
+      "rewardPoints": 0,
+      "createdAt": "2026-05-23T19:10:20.988Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "title": "Broken streetlight",
+      "description": "Streetlight is out near the park",
+      "category": "Electricity",
+      "latitude": 28.61,
+      "longitude": 77.21,
+      "image": null,
+      "address": "Near the park",
+      "assignedDepartment": null,
+      "status": "open",
+      "votes": 0,
+      "votedBy": [],
+      "userId": 1,
+      "createdAt": "2026-05-23T19:08:24.389Z"
+    },
+    {
+      "id": 2,
+      "title": "Water leak",
+      "description": "Water leak near main gate",
+      "category": "Water",
+      "latitude": 28.62,
+      "longitude": 77.22,
+      "image": null,
+      "address": "Main gate",
+      "assignedDepartment": null,
+      "status": "open",
+      "votes": 0,
+      "votedBy": [],
+      "userId": 2,
+      "createdAt": "2026-05-23T19:09:17.119Z"
+    }
+  ],
+  "nextUserId": 4,
+  "nextComplaintId": 3
+}
